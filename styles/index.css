@@ -18,37 +18,43 @@ body{
     position: fixed;
     top: 0;
     height: 15%;
-}
+}   
 
 .logo{
-    width: 20%;
-    margin: 5%;
+    width: 35%;
+    margin: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .fa-artstation{
-    font-size: 40px;
+    font-size: 100px;
+    margin-right: 5%;
 }
 
 .logo a{
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .navbar__link{
-    width: 60%;
-    display: flex;
-    justify-content: space-around; 
+    width: 50%;
 }
 
 ul{
     list-style: none;
+    display: flex;
+    justify-content: flex-end; 
 }
 
 li{
     display: inline-block;
+    margin: 3%;
+    font-size: 20px;
 }
 
-li a{
-    margin: 5%;
+li a:hover{
+    color: #879871;
 }
 
 nav a{
@@ -60,6 +66,7 @@ nav a{
     width: 20%;
     display: flex;
     justify-content: space-around;
+    margin: 2%;
 }
 
 .btn{
@@ -68,6 +75,7 @@ nav a{
     background-color: #04AA6D;
     border: none;
     color: white;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -75,21 +83,49 @@ nav a{
     background-color: #555555;
 }
 
-
-a:hover{
-    color:pink;
+.btn:hover{
+    color: #C1C6BB;
 }
 
-/*.page{
+.page{
     width: 90%;
     height: 70%;
 }
 .footer{
     width: 90%;
     height: 15%;
-    positon: fixed;
+    bottom: 0;
+    position: fixed;
     background-image: linear-gradient(to bottom, #EEF6E7, #E0F9CD);
     display: flex;
     justify-content: space-between;
     align-items: center;
-}*/
+}
+
+.logo a{
+    text-decoration: none;
+    color:black;
+}
+
+.footer__info-left{
+    width: 25%;
+    font-size: 20px;
+}
+
+.footer__info-right{
+    width: 10%;
+    font-size: 20px;
+    margin: 2%;
+}
+
+.footer__info-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+
+
+
