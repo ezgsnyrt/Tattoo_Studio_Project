@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  position: sticky; /* I changed here so header is not going away*/
+  top: 0; /* I changed here so header is not going away*/
+  bottom: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  width: 100%;
+  background-image: linear-gradient(to bottom, #eef6e7, #e0f9cd);
+  /* left: 0; delete here*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*Position: fixed delete here*/
+  /* top: 0; delete here*/
+  /*   height: 40%; delete here*/
+}
+
+.logo {
+  width: 40%;
+  margin: 2%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fa-artstation {
+  font-size: 100px;
+  margin-right: 5%;
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.navbar__link {
+  width: 40%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  display: inline-block;
+  margin: 3%;
+  font-size: 20px;
+}
+
+li a {
+  cursor: pointer;
+}
+
+li a:hover {
+  color: #879871;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+.btn {
+  width: 45%;
+  padding: 5%;
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn--up {
+  background-color: #555555;
+}
+
+.btn:hover {
+  color: #c1c6bb;
+}
+
+/*Header*/
+.aboutus {
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  background-image: url(/images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  z-index: 0;
+}
+
+.polygon {
+  overflow: hidden;
+  width: 20%;
+  z-index: 10;
+}
+.store {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Responsible design*/
+@media (min-width: 600px) {
+  .aboutus {
+    height: 300px;
+    max-width: 100%;
+  }
+}
