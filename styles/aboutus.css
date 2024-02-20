@@ -111,6 +111,7 @@ nav a {
   text-align: center;
   font-size: 20px;
   position: relative;
+  z-index: 1;
 }
 
 .polygon {
