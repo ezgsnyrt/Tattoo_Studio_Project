@@ -3,6 +3,10 @@
   margin: 0;
   font-family: "Inknut Antiqua", serif;
 }
+html,
+body {
+  overflow-x: hidden;
+} /*I can see the space on the right side, but I am not sure it is a good solution*/
 /*Navigation*/
 .container {
   width: 100%;
@@ -281,7 +285,7 @@ footer {
 }
 
 .footer__info-right {
-  /*width: 12%; Destroying small screen */
+  width: 12%;
   padding-right: 5%;
   font-size: 20px;
   margin: 2%;
@@ -308,6 +312,25 @@ footer {
 }
 
 /*Responsible design*/
+
+@media (min-width: 320px) and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+  .store-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .history::before {
+    width: 100vw;
+  }
+  .hide {
+    display: none;
+  }
+}
 
 @media (min-width: 641px) {
   .aboutus {
@@ -373,5 +396,19 @@ footer {
     justify-content: center;
     gap: 10%;
     max-width: 250px;
+  }
+}
+@media (min-width: 1400px) {
+  .aboutus {
+    background-size: cover;
+    max-width: 100%;
+    width: 100vw;
+  }
+  .polygon {
+    width: 25%;
+    margin-left: 7rem;
+  }
+  .bestTattooShop {
+    padding: 0% 20%;
   }
 }
