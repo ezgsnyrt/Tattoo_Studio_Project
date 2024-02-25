@@ -6,7 +6,7 @@
 }
 
 body{
-    display: flex;
+    display: flex; 
     justify-content: center;
 }
 .container{
@@ -105,6 +105,77 @@ nav a{
     width: 90%;
     height: 70%;
 }
+
+/* Landing page starts here. */
+/*header {  Home page
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    background: url(/images/background.png)/*center/cover no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .polygon {
+    overflow: hidden;
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    right: 0;
+    top: 15%;
+    z-index: -1;
+  }
+  .line {
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    width: 50%;
+  }*/
+
+.landing-page{
+    width:100%;
+    height:100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container-artist{
+    border: 5px solid black;
+}
+
+.container-service{
+    border: 5px solid black;
+}
+
+.container-appointment{
+    border: 5px solid black;
+}
+
+.container-faq{
+    border: 5px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     width: 100%;
