@@ -3,10 +3,7 @@
   margin: 0;
   font-family: "Inknut Antiqua", serif;
 }
-html,
-body {
-  overflow-x: hidden;
-} /*I can see the space on the right side, but I am not sure it is a good solution*/
+
 /*Navigation*/
 .container {
   width: 100%;
@@ -110,6 +107,7 @@ nav a {
   display: inline-block;
   height: 200px;
   width: 100%;
+  max-width: 100%;
   background: url(/images/background.png) center/cover no-repeat;
   color: #fff;
   text-align: center;
@@ -221,8 +219,8 @@ nav a {
 /*Awards */
 .awards {
   height: auto;
-  width: 100%;
-  max-width: 300px;
+  width: 20%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   margin: 10% auto;
@@ -315,8 +313,15 @@ footer {
 
 @media (min-width: 320px) and (max-width: 500px) {
   body {
-    font-size: 12px;
+    font-size: 10px;
   }
+  .aboutus h1 {
+    font-size: 2rem;
+  }
+  .aboutus h3 {
+    font-size: 1rem;
+  }
+
   .store-image {
     width: 100%;
     max-width: 100%;
@@ -329,6 +334,26 @@ footer {
   }
   .hide {
     display: none;
+  }
+  .awards {
+    max-width: 100%;
+    width: 200px;
+  }
+  .polygon {
+    max-width: 100%;
+    width: 50%;
+    top: 15%;
+    left: 25%;
+  }
+  .line {
+    max-width: 100%;
+    width: 50%;
+    top: 35%;
+    left: 25%;
+  }
+  .artist-image {
+    max-width: 100%;
+    width: 50%;
   }
 }
 
@@ -358,7 +383,7 @@ footer {
     width: 100%;
     max-width: 90rem;
     height: 18rem;
-    font-size: 30px;
+    font-size: 25px;
   }
   .polygon {
     width: 35%;
@@ -383,6 +408,10 @@ footer {
   }
 
   /*History*/
+  .histor::before {
+    width: 100%;
+    max-width: 100%;
+  }
   .history h3 {
     top: 20%;
   }
@@ -393,9 +422,13 @@ footer {
   /*Awards*/
   .awards {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10%;
-    max-width: 250px;
+  }
+  .bestTattooShop {
+    width: 100%;
+    max-width: 100%;
+    padding: 0% 20%;
   }
 }
 @media (min-width: 1400px) {
@@ -407,8 +440,5 @@ footer {
   .polygon {
     width: 25%;
     margin-left: 7rem;
-  }
-  .bestTattooShop {
-    padding: 0% 20%;
   }
 }
