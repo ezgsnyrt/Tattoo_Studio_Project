@@ -1,9 +1,9 @@
-*{
+* {
     font-family: "Inknut Antiqua", serif;
     font-weight: 400;
-    cursor: default;
-    margin: 0;
+    cursor: default; 
     padding: 0;
+    margin: 0;
 }
 
 body{
@@ -108,7 +108,7 @@ nav a{
 /* Header starts here. */
 header {
     display: inline-block;
-    height: 40vh; /* 200 px was deleted and it was revised as 40 vh. */
+    height: 30vh; /* 200 px was deleted and it was revised as 30 vh. */
     width: 100%;
     background: url(/images/background.png) center/cover no-repeat;
     background-size: cover;
@@ -120,18 +120,19 @@ header {
     font-size: 20px;
     position: relative;
     z-index: 1;
-  }
+}
 
-  header h1 {         /* Font size was added in a way to make it similar with about us page. */
+header h1 {         /* Font size was added in a way to make it similar with about us page. */
     font-size: 3.2rem;
     font-weight: 600;
-  }
-  header h3 {        /* Font size was added in a way to make it similar with about us page. */
+}
+
+header h3 {        /* Font size was added in a way to make it similar with about us page. */
     font-size: 2rem;
     font-weight: 600;
-  }
+}
   
-  .polygon {
+.polygon {
     overflow: hidden;
     position: absolute;
     width: 25%; /*It was reduced from 40% to 25% to make it similar with about us page. */
@@ -139,15 +140,16 @@ header {
     right: 0;
     top: 10%; /*It was reduced from 15% to % to make it similar with about us page. */
     z-index: -1;
-  }
-  .line {
+}
+
+.line {
     justify-content: center;
     align-self: center;
     position: absolute;
     top: 40%;
     right: 25%;
     width: 50%;
-  }
+}
 
 /* Landing page starts here. */
 .landing-page{
@@ -214,7 +216,7 @@ header {
     80% { transform: rotate(1deg); }
     90% { transform: rotate(0deg); }
     100% { transform: rotate(-1deg); }
-  }
+}
 
 .card-name{
     text-align: justify;
@@ -273,12 +275,12 @@ header {
 }
 
 .service-button:hover {
-  background-color: #fbeee0;
+    background-color: #fbeee0;
 }
 
 .service-button:active {
-  box-shadow: #422800 2px 2px 0 0;
-  transform: translate(2px, 2px);
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
 }
 
 /* Service appointment starts here */
@@ -288,29 +290,29 @@ header {
     align-items: center;
  }
 
- .container-appointment-title .sub-title{
+.container-appointment-title .sub-title{
     padding-top: 2%;
     padding-bottom: 2%;
  }
 
- .appointment-wrapper{
+.appointment-wrapper{
     display: flex;
     justify-content: center;
     width: 60%;
     padding: 2% 0 2% 0;
- }
+}
 
- .card-appointment{
+.card-appointment{
     padding-right: 3%;
     display: flex;
     flex-direction: column;
- }
+}
 
- .fa-door-open, .fa-calendar-check, .fa-credit-card, .fa-check{
+.fa-door-open, .fa-calendar-check, .fa-credit-card, .fa-check{
     font-size: 50px;
     color:#34724e;
     align-self: center;
- }
+}
 
 .appointment-message{
     font-size: 16px;
@@ -391,9 +393,9 @@ header {
     display: block;
     width:100%;
     cursor: pointer;
-  }
+}
   
-  .answers {
+.answers {
     background: #C3CCBD;
     padding: 0px 15px;
     margin: 5px 0;
@@ -406,37 +408,22 @@ header {
     -moz-transition: .7s ease;
     -o-transition: .7s ease;
     transition: .7s ease;
-  }
+}
   
-  .questions:checked ~ .answers{
+.questions:checked ~ .answers{
     height: auto;
     opacity: 1;
     padding: 1%;
-  }
+}
   
-  .questions {
+.questions {
     display: none;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
  /* Footer starts here */
 footer{
     width: 100%;
-    height: 15%;
+    height: 7%; /* It was revised to reduce the height of footer part. */
     bottom: 0;
     left:0;
     background: #EAF7DC;
