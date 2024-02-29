@@ -14,22 +14,23 @@ body{
 /* Navigation starts here. */
 .container{
     width: 100%;
-    position:sticky;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     top: 0;
     bottom: 0;
-    z-index: 10;
 }
 
 .navbar{
     width: 100%;
-    background: #EAF7DC;
+    background: #2AC342;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 14vh; /* Height in terms of vh was added to reduce the height of navigation.*/
+    top: 0; 
+    position:sticky; /* Navigation bar positioned as sticky. */
+    z-index:10;
 }   
 
 .logo{
@@ -181,25 +182,36 @@ header h3 {        /* Font size was added in a way to make it similar with about
 /* Our Artists */
 .container-artist{
     display: flex;
-    flex-direction: column;
-    padding: 0 6%;
+    justify-content: center; 
+    width: 100%;
     margin-top: 8%;
+}
+
+.container-artist-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
 }
 
 .container-card-box{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1% 5%;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+
 }
 
 .container-card{
-    margin: 0 5%;
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
 }
 
 .card-image{
-    width: 70%;
-    border-radius: 50%;;
+    width: 80%;
+    border-radius: 20%;;
 }
 
 .card-image:hover{
@@ -223,8 +235,7 @@ header h3 {        /* Font size was added in a way to make it similar with about
 
 .card-name{
     text-align: justify;
-    padding-left: 8%;
-    margin: 3% 0 3% 0;
+    margin: 4% 0 4% 0;
     font-size: 20px;
     font-weight: 800;
 }
@@ -232,8 +243,6 @@ header h3 {        /* Font size was added in a way to make it similar with about
 .card-info{
     font-size: 20px;
     text-align: justify;
-    padding-right: 8%;
-    margin-right: 8%;
     line-height: 1.6;
 }
 
@@ -483,7 +492,7 @@ footer{
     height: 7%; /* It was revised to reduce the height of footer part. */
     bottom: 0;
     left:0;
-    background: #EAF7DC;
+    background: #2AC342;
     display: flex;
     justify-content: space-between;
     align-items: center;
