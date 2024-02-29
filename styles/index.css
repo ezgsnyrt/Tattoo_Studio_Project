@@ -446,9 +446,9 @@ header h3 {        /* Font size was added in a way to make it similar with about
     position: relative;
     background: #8FBC8F;
     margin: 0;
-    padding: 1% 0 1% 0;
+    padding: 1% 0 1% 1%;
     display: block; 
-    width:100%;
+    width:99%;
     cursor: pointer;
 }
   
