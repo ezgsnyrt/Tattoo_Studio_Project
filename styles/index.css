@@ -14,22 +14,24 @@ body{
     display: flex; 
     justify-content: center;
 }
+
 .container{
     width: 100%;
+    position:sticky;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
 }
 
 .navbar{
     width: 100%;
     background: #EAF7DC;
-    left:0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:sticky;
-    top: 0;
 }   
 
 .logo{
@@ -41,7 +43,7 @@ body{
 }
 
 .fa-artstation{
-    font-size: 100px;
+    font-size: 70px;  /* It was reduced from 100px to 70 px to reduce the hight of the navigation.  */
     margin-right: 5%;
 }
 
@@ -88,7 +90,7 @@ nav a{
 
 .btn{
     width: 45%;
-    padding: 5%;
+    padding: 1%; /* It was changed from 5% to 1% considering the button size in about us page. */
     background-color: #0DA062;
     border: none;
     color: white;
@@ -104,11 +106,6 @@ nav a{
 .btn:hover{
     color: #C1C6BB;
 }
-
-.page{
-    width: 90%;
-    height: 70%;
-}  /*  Bu kısım gerekli mi? */
 
 /* Landing page starts here. */
 /*header {  Home page
