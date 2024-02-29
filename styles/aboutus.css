@@ -18,7 +18,7 @@
 
 .navbar {
   width: 100%;
-  background-image: linear-gradient(to bottom, #eef6e7, #e0f9cd);
+  background: #2dca4b;
   /* left: 0; delete here*/
   display: flex;
   justify-content: space-between;
@@ -85,7 +85,7 @@ nav a {
 .btn {
   width: 45%;
   padding: 5%;
-  background-color: #04aa6d;
+  background-color: #34724e;
   border: none;
   color: white;
   font-size: 20px;
@@ -266,7 +266,7 @@ nav a {
 footer {
   bottom: 0;
   /* position: fixed;  We don't need to fixed here*/
-  background-image: linear-gradient(to bottom, #eef6e7, #e0f9cd);
+  background: #2dca4b;
   display: flex;
   justify-content: space-between;
   align-items: center;
