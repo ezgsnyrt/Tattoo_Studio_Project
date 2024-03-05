@@ -11,7 +11,7 @@ body{
     justify-content: center;
 }
 
-/* Navigation starts here. */
+
 .container{
     width: 100%;
     display:flex;
@@ -27,9 +27,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 14vh; /* Height in terms of vh was added to reduce the height of navigation.*/
+    height: 14vh; 
     top: 0; 
-    position:sticky; /* Navigation bar positioned as sticky. */
+    position:sticky; 
     z-index:10;
 }   
 
@@ -42,7 +42,7 @@ body{
 }
 
 .fa-artstation{
-    font-size: 70px;  /* It was reduced from 100px to 70 px to reduce the hight of the navigation.  */
+    font-size: 70px;  
     margin-right: 5%;
 }
 
