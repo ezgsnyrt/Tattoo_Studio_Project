@@ -26,7 +26,9 @@
   /*Position: fixed delete here*/
   /* top: 0; delete here*/
   /* height: 40%; delete here*/
-  height: 14vh;
+
+  height: 14vh; /* Height in terms of vh was added to reduce the height of navigation.*/
+
 }
 
 .logo {
@@ -38,7 +40,7 @@
 }
 
 .fa-artstation {
-  font-size: 100px;
+  font-size: 70px; /* It was reduced from 100px to 70 px to reduce the hight of the navigation.  */
   margin-right: 5%;
 }
 
@@ -106,9 +108,8 @@ nav a {
 
 .aboutus {
   display: inline-block;
-  height: 200px;
+  height: 30vh;
   width: 100%;
-  max-width: 100%;
   background: url(/images/background.png) center/cover no-repeat;
   color: #fff;
   text-align: center;
@@ -383,14 +384,21 @@ footer {
     background-size: cover;
     width: 100%;
     max-width: 90rem;
-    height: 18rem;
+    height: 15rem;
     font-size: 25px;
+  }
+  .aboutus h1 {
+    font-size: 3.2rem;
+  }
+  .aboutus h3 {
+    font-size: 2rem;
   }
   .polygon {
     width: 35%;
     left: 32%;
     top: 10%;
   }
+
   /*About our store*/
   .store {
     display: flex;
@@ -440,6 +448,6 @@ footer {
   }
   .polygon {
     width: 25%;
-    margin-left: 7rem;
+    margin-left: 5rem;
   }
 }
