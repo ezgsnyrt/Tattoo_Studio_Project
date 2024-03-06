@@ -24,6 +24,7 @@
    
     h2,h1 {text-align: center;
         color:#2dca4b ;
+        cursor: default;
     }
     
     .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
@@ -62,7 +63,6 @@
       .navbar {
         width: 100%;
         background: #2dca4b;
-        
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -90,6 +90,10 @@
       .navbar__link {
         width: 40%;
       }
+
+
+
+
       
       ul {
         list-style: none;
