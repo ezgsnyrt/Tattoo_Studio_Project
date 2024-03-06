@@ -23,7 +23,7 @@ body {
     /*transform: translate(-50%, -70%)*/
 }
 
-.ellipse1 {
+.address {
     width: 160px;
     height: 161px;
     flex-shrink: 0;
@@ -33,7 +33,7 @@ body {
     transform: translate(+100%, -220%);
 }
 
-.ellipse2 {
+.instagram {
     width: 160px;
     height: 161px;
     flex-shrink: 0;
@@ -43,7 +43,7 @@ body {
     transform: translate(+250%, -220%);
 }
 
-.ellipse3 {
+.facebook {
     width: 160px;
     height: 161px;
     flex-shrink: 0;
@@ -53,7 +53,7 @@ body {
     transform: translate(+410%, -220%);
 }
 
-.ellipse4 {
+.youtube {
     width: 160px;
     height: 161px;
     flex-shrink: 0;
