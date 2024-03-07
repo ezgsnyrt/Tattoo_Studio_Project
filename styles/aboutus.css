@@ -28,7 +28,6 @@
   /* height: 40%; delete here*/
 
   height: 14vh; /* Height in terms of vh was added to reduce the height of navigation.*/
-
 }
 
 .logo {
@@ -313,7 +312,7 @@ footer {
 
 /*Responsible design*/
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) {
   body {
     font-size: 10px;
   }
@@ -394,11 +393,13 @@ footer {
     font-size: 2rem;
   }
   .polygon {
-    width: 35%;
-    left: 32%;
+    width: 28%;
+    left: 36%;
     top: 10%;
   }
-
+  .line {
+    bottom: 33%;
+  }
   /*About our store*/
   .store {
     display: flex;
@@ -445,11 +446,21 @@ footer {
     background-size: cover;
     max-width: 100%;
     width: 100vw;
-    height: {
-    }
   }
   .polygon {
     width: 25%;
+    margin-left: 1rem;
+  }
+  .line {
+    padding-top: 1%;
+  }
+}
+@media (min-width: 1500px) {
+  .polygon {
+    width: 20%;
     margin-left: 5rem;
+  }
+  .line {
+    padding-top: 0%;
   }
 }
