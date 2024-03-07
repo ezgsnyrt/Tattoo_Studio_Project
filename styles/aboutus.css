@@ -26,6 +26,8 @@
   /*Position: fixed delete here*/
   /* top: 0; delete here*/
   /* height: 40%; delete here*/
+
+  height: 14vh; /* Height in terms of vh was added to reduce the height of navigation.*/
 }
 
 .logo {
@@ -37,7 +39,7 @@
 }
 
 .fa-artstation {
-  font-size: 100px;
+  font-size: 70px; /* It was reduced from 100px to 70 px to reduce the hight of the navigation.  */
   margin-right: 5%;
 }
 
@@ -105,9 +107,8 @@ nav a {
 
 .aboutus {
   display: inline-block;
-  height: 200px;
+  height: 30vh;
   width: 100%;
-  max-width: 100%;
   background: url(/images/background.png) center/cover no-repeat;
   color: #fff;
   text-align: center;
@@ -311,7 +312,7 @@ footer {
 
 /*Responsible design*/
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) {
   body {
     font-size: 10px;
   }
@@ -382,13 +383,22 @@ footer {
     background-size: cover;
     width: 100%;
     max-width: 90rem;
-    height: 18rem;
-    font-size: 25px;
+    height: 15rem;
+    font-size: 23px;
+  }
+  .aboutus h1 {
+    font-size: 3.2rem;
+  }
+  .aboutus h3 {
+    font-size: 2rem;
   }
   .polygon {
-    width: 35%;
-    left: 32%;
+    width: 28%;
+    left: 36%;
     top: 10%;
+  }
+  .line {
+    bottom: 33%;
   }
   /*About our store*/
   .store {
@@ -401,10 +411,13 @@ footer {
   }
   /*Our artists*/
   .artists-container {
-    margin: 5%;
+    margin: 3%;
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: space-between;
+  }
+  .artist-image {
+    width: 100%;
   }
 
   /*History*/
@@ -426,8 +439,6 @@ footer {
     gap: 10%;
   }
   .bestTattooShop {
-    width: 100%;
-    max-width: 100%;
     padding: 0% 20%;
   }
 }
@@ -436,9 +447,31 @@ footer {
     background-size: cover;
     max-width: 100%;
     width: 100vw;
+    height: 22rem;
   }
+  .aboutus h1 {
+    padding-top: 1%;
+  }
+
   .polygon {
     width: 25%;
-    margin-left: 7rem;
+    margin-left: 2rem;
+  }
+  .line {
+    top: 0;
+  }
+  .store-image {
+    width: 300rem;
+    max-width: 100%;
+  }
+
+  .artist p {
+    font-size: 1rem;
+  }
+  .store p,
+  .history,
+  .feedback p,
+  .feedback-name-star h4 {
+    font-size: 1.5rem;
   }
 }
