@@ -411,10 +411,13 @@ footer {
   }
   /*Our artists*/
   .artists-container {
-    margin: 5%;
+    margin: 3%;
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: space-between;
+  }
+  .artist-image {
+    width: 100%;
   }
 
   /*History*/
@@ -436,8 +439,6 @@ footer {
     gap: 10%;
   }
   .bestTattooShop {
-    width: 100%;
-    max-width: 100%;
     padding: 0% 20%;
   }
 }
@@ -446,17 +447,6 @@ footer {
     background-size: cover;
     max-width: 100%;
     width: 100vw;
-  }
-  .polygon {
-    width: 25%;
-    margin-left: 1rem;
-  }
-  .line {
-    padding-top: 1%;
-  }
-}
-@media (min-width: 1500px) {
-  .aboutus {
     height: 22rem;
   }
   .aboutus h1 {
@@ -469,5 +459,19 @@ footer {
   }
   .line {
     top: 0;
+  }
+  .store-image {
+    width: 300rem;
+    max-width: 100%;
+  }
+
+  .artist p {
+    font-size: 1rem;
+  }
+  .store p,
+  .history,
+  .feedback p,
+  .feedback-name-star h4 {
+    font-size: 1.5rem;
   }
 }
