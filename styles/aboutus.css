@@ -383,8 +383,8 @@ footer {
     background-size: cover;
     width: 100%;
     max-width: 90rem;
-    height: 14rem;
-    font-size: 24px;
+    height: 15rem;
+    font-size: 23px;
   }
   .aboutus h1 {
     font-size: 3.2rem;
@@ -456,11 +456,18 @@ footer {
   }
 }
 @media (min-width: 1500px) {
+  .aboutus {
+    height: 22rem;
+  }
+  .aboutus h1 {
+    padding-top: 1%;
+  }
+
   .polygon {
-    width: 20%;
-    margin-left: 5rem;
+    width: 25%;
+    margin-left: 2rem;
   }
   .line {
-    padding-top: 0%;
+    top: 0;
   }
 }
